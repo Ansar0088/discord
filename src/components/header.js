@@ -13,17 +13,30 @@ const Header = () => {
             <img src="/Assets/discord.svg" class="w-10" alt="..." />
             <input
               type="text"
-              class="bg-[#1E1F22] text-white px-3 rounded-lg"
+              class="bg-[#1E1F22] text-white px-3 rounded-lg outline-none"
               placeholder="find and start conversion"
             />
-               <h5 className="text-gray-200 hover:bg-gray-500 cursor-pointer rounded-md p-2">Friends</h5>
-              <h5 className="text-gray-200 hover:bg-gray-500 cursor-pointer rounded-md p-2">Online</h5>
-            <h5 className="text-gray-200 hover:bg-gray-500 cursor-pointer rounded-md p-2">All</h5>
-            <h5 className="text-gray-200 hover:bg-gray-500 cursor-pointer rounded-md p-2"> Pending</h5>
-            <h5 className=" text-gray-200 hover:bg-gray-500 cursor-pointer rounded-md p-2">Blocked</h5>
-            <h5 className="text-green-500 hover:bg-gray-500 cursor-pointer rounded-md p-2">Add friend</h5>
+            <h5 className="text-gray-200 hover:bg-gray-500 cursor-pointer rounded-md p-2">
+              Friends
+            </h5>
+            <h5 className="text-gray-200 hover:bg-gray-500 cursor-pointer rounded-md p-2">
+              Online
+            </h5>
+            <h5 className="text-gray-200 hover:bg-gray-500 cursor-pointer rounded-md p-2">
+              All
+            </h5>
+            <h5 className="text-gray-200 hover:bg-gray-500 cursor-pointer rounded-md p-2">
+              {" "}
+              Pending
+            </h5>
+            <h5 className=" text-gray-200 hover:bg-gray-500 cursor-pointer rounded-md p-2">
+              Blocked
+            </h5>
+            <h5 className="text-green-500 hover:bg-gray-500 cursor-pointer rounded-md p-2">
+              Add friend
+            </h5>
           </div>
-         
+
           <div className="md:flex gap-2 hidden">
             <ChatBubbleLeftRightIcon className="w-8 text-[#DBDEE1]" />
             <InboxArrowDownIcon className="w-8  text-[#DBDEE1]" />
